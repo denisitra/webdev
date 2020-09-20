@@ -87,7 +87,9 @@ body {
     color: #FFFFFF;
     opacity: 0.8;
 }
-
+.text input{
+    padding-left: 22px;
+}
 .your_life p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -353,7 +355,8 @@ body {
     text-align: center;
     color: #373737;
     margin-left: 5px;
-}.number_pages3{
+}
+.number_pages3{
      font-family: Roboto, sans-serif;
      font-style: normal;
      font-weight: normal;
