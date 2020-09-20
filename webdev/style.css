@@ -7,9 +7,21 @@ body {
     background-image: url("assets/bg-image.png");
     margin-left: auto;
     margin-right: auto;
-
 }
-
+.vebdev{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 480px;
+    height: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
 .header {
     display: flex;
     width: 1600px;
@@ -20,6 +32,12 @@ body {
     height: 21px;
     margin-left: 502px;
     margin-top: 38px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.about:hover{
+    color: #FFFFFF;
+    opacity: 1;
 
 }
 .syllabus {
@@ -101,6 +119,11 @@ body {
     text-align: center;
     background: #00AFDB;
     justify-content: center;
+    transition: all 500ms ease;
+}
+.btn_main:hover{
+    transform: scale(1.1);
+    background-color: #34cef5;
 }
 .btn_main p{
     font-family: Roboto, sans-serif;
@@ -119,8 +142,13 @@ body {
     height: 20px;
 }
 .mail, .facebook, .insta, .telegram {
+    transition: all 500ms ease;
     width: 20px;
     height: 20px;
+}
+.mail:hover, .facebook:hover, .insta:hover, .telegram:hover{
+    transform: scale(1.2);
+
 }
 .facebook, .insta, .telegram{
     margin-left: 30px;
@@ -178,6 +206,12 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+    transition: all 500ms ease;
+}
+.btn_main_2:hover{
+    transform: scale(1.1);
+    background-color: #34cef5;
+
 }
 .btn_main_2 p{
     width: 90px;
@@ -265,14 +299,21 @@ body {
     height: 244px;
     margin-left: 30px;
 }
-.nav_items{
-    margin-left: 685px;
-    margin-top: 77px;
-    display: flex;
+.photo_slider2{
+    width: 10px;
+    height: 244px;
+    margin-left: 30px;
+    object-fit: cover;
 }
-.number_pages{
-    width: 37px;
-    height: 25px;
+
+.nav_items{
+    margin-left: 682px;
+    margin-top: 80px;
+    display: flex;
+    width: 90px;
+    height: 20px;
+}
+.number_pages1{
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -282,10 +323,58 @@ body {
     align-items: center;
     text-align: center;
     color: #373737;
+    margin-left: 10.2px;
 }
-.more_less{
-    width: 8px;
-    height: 8px;
+.number_pages2{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #373737;
+    margin-left: 5px;
+}.number_pages3{
+     font-family: Roboto, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 140%;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #373737;
+    margin-right: 9.7px;
+    margin-left: 4.4px;
+    margin-top: 1px;
+ }
+
+
+.more_less1{
+    margin-top: 3px;
+    width: 13px;
+    height: 14px;
+    transition: all 500ms ease;
+}
+.more_less2{
+    margin-top: 3px;
+    width: 13px;
+    height: 14px;
+    margin-left: 2.2px;
+    transition: all 500ms ease;
+
+}
+.more_less1:hover{
+    transform: scale(1.2);
+    cursor: w-resize;
+    color: #4E4E4E;
+}
+.more_less2:hover{
+    transform: scale(1.2);
+    cursor: e-resize;
+    color: #4E4E4E;
 }
 
 
@@ -343,6 +432,12 @@ body {
     margin-top: 30px;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
+
+}
+.btm_main_4:hover{
+    transform: scale(1.1);
+    background-color: #34cef5;
 }
 .btm_main_4 p{
     font-family: Roboto, sans-serif;
@@ -381,23 +476,80 @@ body {
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-top: 270px;
-
+    margin-top: 217px;
     color: #FFFFFF;
 }
 .email{
+    /*
     width: 340px;
+    */
     height: 46px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin-left: 597px;
+    margin-top: 31px;
     display: flex;
 }
 .enter_email{
-
+    width: 340px;
+    height: 46px;
 }
-.submit{
-
+.button{
+    width: 66px;
+    height: 46px;
+    background: #00AFDB;
+    border: none;
 }
+
+
+/*
+
+.sixth{
+    width: 1600px;
+    height: 468px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F5F6F7;
+}
+.download {
+    width: 255px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download p{
+!*
+не работает марджин правильно
+*!
+}
+.download_description{
+    width: 484px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download_description p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+    margin-top: 10px;
+}
+
+
+
+.footer{
+    width: 1600px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000;
+}
+*/
+
+
 
 
